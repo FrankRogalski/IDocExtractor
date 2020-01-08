@@ -11,4 +11,6 @@ Adds a simple way to extract IDocs
 1. profit
 1. Example
 
-```python3 IDocExtractor.py datahub.log data.idoc DEBMAS MATMAS
+```
+python3 IDocExtractor.py datahub.log data.idoc DEBMAS MATMAS
+```

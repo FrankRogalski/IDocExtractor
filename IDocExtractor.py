@@ -21,7 +21,7 @@ def main():
                     if match:
                         target.write(match.group(1) + "\n")
     except FileNotFoundError:
-        print("The source File you specified ({}) wasn't found".format(argv[1]))
+        print(f"The source File you specified ({args.source_path}) wasn't found")
         exit(1)
 
 if __name__ == "__main__":
